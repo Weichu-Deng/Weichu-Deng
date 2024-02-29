@@ -6788,7 +6788,11 @@ Custom CSS
   border-radius: 0.25rem; }
 
 .img-profile {
-  max-width: 175px; }
+  max-width: 145px;
+  -webkit-filter: drop-shadow(10px 10px 10px rgba(0,0,0,.5)); /*考虑浏览器兼容性：兼容 Chrome, Safari, Opera */
+  filter: drop-shadow(10px 10px 10px rgba(0,0,0,.5));
+}
+
 
 /*Buttons */
 .btn:active, .btn:focus {
