@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Weichu Deng / Site Title"
+title                    : "Weichu Deng / PhD student"
 title_separator          : "-"
 name                     : &name "Weichu Deng"
 description              : &description "personal description"
@@ -22,11 +22,11 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "user.jpg"
-  name             : "Your Sidebar Name"
+  name             : "Weichu Deng"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "My research areas of interest span blockchain, access control, and artificial intelligence."
   location         : "Guangzhou"
-  employer         : "Red Brick University"
+  employer         : "Guangzhou University"
   uri              : # URL
   email            : "2112106114@e.gzhu.edu.cn" 
 
@@ -35,7 +35,6 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=2aGfgRYAAAAJ&hl=zh-CN"
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0002-4623-6241"
-  pubmed           : ""
   researchgate     : # URL
 
   # Repositories and software development
@@ -47,7 +46,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          :  # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -70,7 +69,7 @@ author:
   wikipedia        : # Username
   xing             : # Username
   youtube          : # Username
-  zhihu            : # URL
+  zhihu            : "https://www.zhihu.com/people/endorphins-37-3"
 
 
 # Site Settings
