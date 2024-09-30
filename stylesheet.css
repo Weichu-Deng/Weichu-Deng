@@ -14,6 +14,28 @@
   src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v15/S6u8w4BMUTPHjxsAXC-qNiXg7Q.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+
+.top-aligned-list {
+  counter-reset: item; /* 创建一个计数器 */
+  padding-left: 0; /* 移除默认的内边距 */
+  list-style-type: none; /* 移除列表的标记样式 */
+}
+ 
+.top-aligned-list li {
+  counter-increment: item; /* 增加计数器 */
+  margin-bottom: 0; /* 移除默认的底部外边距 */
+  padding-left: 30px; /* 添加内边距以容纳计数器标记 */
+  position: relative; /* 设置定位，以便将计数器放置在正确的位置 */
+}
+ 
+.top-aligned-list li::before {
+  content: counters(item, ".") ". "; /* 使用计数器 */
+  counter-increment: none; /* 不增加计数器 */
+  position: absolute; /* 绝对定位 */
+  left: 0; /* 放置在左侧 */
+  top: 0; /* 放置在顶部 */
+}
+
 /* latin-ext */
 @font-face {
   font-family: 'Lato';
